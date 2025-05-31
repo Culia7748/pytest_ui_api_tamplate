@@ -50,7 +50,7 @@ tests - тесты
 
 1. Склонировать проект `git clone https://github.com/имя_пользователя/
    pytest_ui_api_template.git`
-2. Установить все зависимости `pip instal -r requirements.txt`
+2. Установить все зависимости `pip install -r requirements.txt`
 3. Запустить тесты 'pytest -s -v'
     + Запустить только ui тесты "pytest -m ui"
     + Запустить только api тесты "pytest -m api"
