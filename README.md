@@ -54,7 +54,7 @@ tests - тесты
 3. Запустить тесты 'pytest -s -v'
     + Запустить только ui тесты "pytest -m ui"
     + Запустить только api тесты "pytest -m api"
-    + Запустить ui и api тесты 'pytest -m api or ui'
+    + Запустить ui и api тесты 'pytest -m "api or ui"'
 4. Сгенерировать отчет 'allure generate allure-files -o allure-report'
 5. Открыть отчет 'allure open allure-report'
 
